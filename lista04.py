@@ -14,7 +14,7 @@
 # Dica: use o operador “%” para verificar se o número é par (ZERO é neutro, ZERO NÃO
 # É PAR).
 
-# entrada = input("Digite dez valores separados por espaço: ")
+# entrada = input("Dez valores separados por espaço: ")
 # lista_entrada = []
 # quantidade_pares = 0
 
@@ -33,6 +33,57 @@
 # de mesmo tamanho. O tamanho das listas deverá ser definido pelo usuário. O pro-
 # grama deverá somar os valores pares e ímpar de cada uma das listas. Em seguida,
 # comparar as somas e informar qual dos somatórios é maior ou se há um empate.
+
+# tamanho_listas = int(input("Tamanho fixo para duas listas: "))
+# lista1 = []
+# lista2 = []
+# numero_elemento_lista1 = 1
+# numero_elemento_lista2 = 1
+# quantidade_pares_lista1 = 0
+# quantidade_pares_lista2 = 0
+# quantidade_impares_lista1 = 0
+# quantidade_impares_lista2 = 0
+
+# for x in range(tamanho_listas):
+#     elemento = int(input(f"{numero_elemento_lista1}º valor da primeira lista: "))
+#     lista1 += [elemento]
+#     numero_elemento_lista1 += 1
+
+# for x in range(tamanho_listas):
+#     elemento = int(input(f"{numero_elemento_lista2}º valor da segunda lista: "))
+#     lista2 += [elemento]
+#     numero_elemento_lista2 += 1
+
+# for x in lista1:
+#     if x % 2 == 0:
+#         quantidade_pares_lista1 += 1
+#     else:
+#         quantidade_impares_lista1 += 1
+
+# for x in lista2:
+#     if x % 2 == 0:
+#         quantidade_pares_lista2 += 1
+#     else:
+#         quantidade_impares_lista2 += 1
+
+# print(f"Pares na primeira lista = {quantidade_pares_lista1}\nPares na segunda lista = {quantidade_pares_lista2}")
+
+# if quantidade_pares_lista1 > quantidade_pares_lista2:
+#     print("listaPar1 > listaPar2")
+# elif quantidade_pares_lista1 < quantidade_pares_lista2:
+#     print("listaPar1 < listaPar2")
+# else:
+#     print("listaPar1 = listaPar2")
+
+# print(f"Ímpares na primeira lista = {quantidade_impares_lista1}\nÍmpares na segunda lista = {quantidade_impares_lista2}")
+
+# if quantidade_impares_lista1 > quantidade_impares_lista2:
+#     print("listaImpar1 > listaImpar2")
+# elif quantidade_impares_lista1 < quantidade_impares_lista2:
+#     print("listaImpar1 < listaImpar2")
+# else:
+#     print("listaImpar1 = listaImpar2")
+
 
 # 3. leia 10 valores inteiros e armazene em uma lista. O programa deve imprimir no terminal
 # quantos valores pares foram digitados pelo usuário. Dica: use o operador “%” para
