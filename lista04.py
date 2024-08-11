@@ -14,6 +14,21 @@
 # Dica: use o operador “%” para verificar se o número é par (ZERO é neutro, ZERO NÃO
 # É PAR).
 
+# entrada = input("Digite dez valores separados por espaço: ")
+# lista_entrada = []
+# quantidade_pares = 0
+
+# for x in entrada:
+#     if x != " ":
+#         lista_entrada = lista_entrada + [int(x)]
+
+# for x in lista_entrada:
+#     if x % 2 == 0:
+#         quantidade_pares = quantidade_pares + 1
+
+# print(f"Quantidade de valores pares: {quantidade_pares}")
+
+
 # 2. Escreva um programa que recebe como entrada valores inteiros para criar duas listas
 # de mesmo tamanho. O tamanho das listas deverá ser definido pelo usuário. O pro-
 # grama deverá somar os valores pares e ímpar de cada uma das listas. Em seguida,
