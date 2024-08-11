@@ -110,6 +110,27 @@
 # pela intercalação dos valores de cada uma das sequências de entrada. Como saída o
 # programa deverá imprimir as duas listas iniciais e a lista resultante.
 
+# quantidade_elementos = int(input("Quantidade de elementos das listas: "))
+# lista1 = []
+# lista2 = []
+# lista3 = []
+# numero_elemento_lista1 = 1
+# numero_elemento_lista2 = 1
+
+# for x in range(quantidade_elementos):
+#     entrada = input(f"{numero_elemento_lista1}º elemento da primeira lista: ")
+#     numero_elemento_lista1 += 1
+#     lista1 += [entrada]
+
+# for x in range(quantidade_elementos):
+#     entrada = input(f"{numero_elemento_lista1}º elemento da segunda lista: ")
+#     numero_elemento_lista2 += 1
+#     lista2 += [entrada]
+
+# lista3 = lista1[::] + lista2[::]
+
+# print(lista3)
+
 # 5. Escreva um programa que receba como entrada uma sequência de valores inteiros.
 # Para tanto, o programa deverá inicialmente solicitar ao usuário quantos valores serão
 # fornecidos para análise e só depois solicitar os valores a serem analisados. A análise
