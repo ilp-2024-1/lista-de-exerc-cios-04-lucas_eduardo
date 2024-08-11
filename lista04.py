@@ -137,6 +137,31 @@
 # consistirá em identificar e apresentar a partir da sequência de valores fornecidos, o
 # menor valor, o maior valor e a média aritmética dos valores.
 
+# quantidade_valores = int(input("Quantidade de valores à serem analisados: "))
+# numero_elemento = 2
+# lista_sequencia = []
+# media_valores = 0
+# soma_valores = 0
+
+# primeiro_valor = int(input("1º elemento da sequência: "))
+
+# menor_valor = primeiro_valor
+# maior_valor = primeiro_valor
+# soma_valores += primeiro_valor
+
+# for x in range(quantidade_valores-1):
+#     elemento = int(input(f"{numero_elemento}º elemento da sequência: "))
+#     numero_elemento += 1
+#     soma_valores += elemento
+    
+#     if elemento > maior_valor:
+#         maior_valor = elemento
+    
+#     elif elemento < menor_valor:
+#         menor_valor = elemento
+    
+# print(f"Menor valor: {menor_valor}\nMaior valor: {maior_valor}\nMédia aritmética: {soma_valores/quantidade_valores:.1f}")
+
 # 6. Crie um programa que solicite ao usuário uma lista de números inteiros e uma string
 # de mesmo comprimento. O programa deve substituir os números nos índices ímpares
 # da lista por caracteres correspondentes da string nos mesmos índices. Exiba a se-
