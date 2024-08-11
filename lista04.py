@@ -89,6 +89,20 @@
 # quantos valores pares foram digitados pelo usuário. Dica: use o operador “%” para
 # verificar se o número é par (ZERO é neutro, ZERO NÃO É PAR).
 
+# entrada = input("Dez valores separados por espaço: ")
+# lista_entrada = []
+# quantidade_pares = 0
+
+# for x in entrada:
+#     if x != " ":
+#         lista_entrada = lista_entrada + [int(x)]
+
+# for x in lista_entrada:
+#     if x % 2 == 0:
+#         quantidade_pares = quantidade_pares + 1
+
+# print(f"Quantidade de valores pares: {quantidade_pares}")
+
 # 4. Escreva um programa que receba como entrada 3 parâmetros: um valor inteiro corres-
 # pondente à quantidade de elementos de dois arrays unidimensionais; duas sequências
 # de valores do tamanho do primeiro parâmetro, os quais deverão ser armazenados em
