@@ -162,10 +162,20 @@
     
 # print(f"Menor valor: {menor_valor}\nMaior valor: {maior_valor}\nMédia aritmética: {soma_valores/quantidade_valores:.1f}")
 
+
 # 6. Crie um programa que solicite ao usuário uma lista de números inteiros e uma string
 # de mesmo comprimento. O programa deve substituir os números nos índices ímpares
 # da lista por caracteres correspondentes da string nos mesmos índices. Exiba a se-
 # quência resultante, separada por um espaço em branco.
+
+entrada1 = input("Lista de números inteiros separados por espaço: ")
+lista1 = []
+
+for x in entrada1:
+    if x != " ":
+        lista1 += [int(x)]
+
+print(lista1)
 
 # 7. Para tanto, o programa deverá inicialmente solicitar ao usuário quantos valores serão
 # fornecidos para análise e só depois solicitar os valores a serem analisados. A análise
