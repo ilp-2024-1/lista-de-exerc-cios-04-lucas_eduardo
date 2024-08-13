@@ -168,14 +168,29 @@
 # da lista por caracteres correspondentes da string nos mesmos índices. Exiba a se-
 # quência resultante, separada por um espaço em branco.
 
-entrada1 = input("Lista de números inteiros separados por espaço: ")
-lista1 = []
+# entrada1 = input("Lista de números inteiros separados por espaço: ")
+# lista_inteiros = []
 
-for x in entrada1:
-    if x != " ":
-        lista1 += [int(x)]
+# for x in entrada1:
+#     if x != " ":
+#         lista_inteiros += [int(x)]
 
-print(lista1)
+# string = input("Palavra com a mesma quantidade de caracteres da lista: ")
+
+# if len(string) != len(lista_inteiros):
+#     print("A palavra e a lista não possuem a mesma quantidade de caracteres e valores.")
+
+# else:
+#     indice = 0
+#     lista_final = lista_inteiros
+
+#     for x in lista_final:
+#         if indice % 2 != 0:
+#             lista_final[indice] = string[indice]
+#         indice = indice + 1
+
+# for x in lista_final:
+#     print(x, end=" ")
 
 # 7. Para tanto, o programa deverá inicialmente solicitar ao usuário quantos valores serão
 # fornecidos para análise e só depois solicitar os valores a serem analisados. A análise
