@@ -222,10 +222,28 @@
     
 # print(f"Menor valor: {menor_valor}\nMaior valor: {maior_valor}\nMédia aritmética: {soma_valores/quantidade_valores:.1f}")
 
+
 # 8. Escreva um programa que receba como entrada uma string constituída por uma se-
 # quência de números inteiros separados por espaço. O programa deverá transformar
 # essa string em uma lista de números inteiros e apresentar o resultado da soma dos
 # valores das posições ímpares dessa lista.
+
+# entrada = input("Lista de valores inteiros separados por espaço: ")
+# lista_valores = []
+# indice = 0
+# soma_impares = 0
+
+# for x in entrada:
+#     if x != " ":
+#         lista_valores += [int(x)]
+
+# for y in lista_valores:
+#     if indice % 2 == 0:
+#         soma_impares += y
+#         print(f"+{y}", end="")
+#     indice += 1
+
+# print(f'={soma_impares}')
 
 # 9. Escreva um programa que receba como entrada uma string várias palavras separadas
 # por espaço. O programa deverá verificar e apresentar a quantidade de ocorrência de
