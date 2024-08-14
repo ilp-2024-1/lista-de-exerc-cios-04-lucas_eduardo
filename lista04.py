@@ -250,6 +250,34 @@
 # cada palavra no texto repassado como entrada para o programa. Os sinais de pontu-
 # ação não devem ser contabilizados, como por exemplo “.” Ou “,”.
 
+# entrada = input("Várias palavras separadas por espaço: ")
+# lista_palavras = []
+# palavra = ""
+# repetidos = ""
+
+# for x in entrada:
+#     if x == "," or x == ".":
+#         pass
+#     elif x == " ":
+#         lista_palavras += [palavra]
+#         palavra = ""
+#     else:
+#         palavra += x
+
+# lista_palavras += [palavra]
+
+# for x in lista_palavras:
+#     vezes = 0
+#     for y in lista_palavras:
+#         if x == y:
+#             vezes += 1
+#     if vezes > 0:
+#         if x in repetidos:
+#             pass
+#         else:
+#             repetidos += f"{x} = {vezes}; "
+
+# print(repetidos)
 
 # MATRIZES (array bidimensional):
 # 10. Escreva um programa que leia 9 valores inteiros e armazene em uma matriz 3x3. O
