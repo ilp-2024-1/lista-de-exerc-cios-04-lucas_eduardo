@@ -358,6 +358,49 @@
 # nho 3x3. Em seguida gere uma terceira matriz C 3x3 formada pelos maiores valores
 # de cada posição comparando as duas primeiras matrizes A e B. 
 
+# matriz_quadrada1 = []
+# matriz_quadrada2 = []
+# matriz_quadrada_maiores = []
+
+# for x in range(2):
+#     linha = []
+#     for y in range(2):
+#         valor = int(input(f"Matriz 1: digite o valor para a posição ({x+1}, {y+1}): "))
+#         linha += [valor]
+#     matriz_quadrada1 += [linha]
+
+# for x in range(2):
+#     linha = []
+#     for y in range(2):
+#         valor = int(input(f"Matriz 2: digite o valor para a posição ({x+1}, {y+1}): "))
+#         linha += [valor]
+#     matriz_quadrada2 += [linha]
+
+# for x in range(2):
+#     linha = []
+#     for y in range(2):
+#         if matriz_quadrada1[x][y] > matriz_quadrada2[x][y]:
+#             linha += [matriz_quadrada1[x][y]]
+#         elif matriz_quadrada2[x][y] > matriz_quadrada1[x][y]:
+#             linha += [matriz_quadrada2[x][y]]
+#         else:
+#             linha += [matriz_quadrada2[x][y]]
+#     matriz_quadrada_maiores += [linha]
+        
+
+# for linha in matriz_quadrada1:
+#     print(linha)
+
+# print()
+
+# for linha in matriz_quadrada2:
+#     print(linha)
+
+# print()
+
+# for linha in matriz_quadrada_maiores:
+#     print(linha)
+
 # 14. Escreva um programa que armazene valores inteiros em uma matrize de tamanho
 # 4x4. Em seguida exiba a soma dos elementos que estão em índices de linha ímpar e
 # coluna par.
