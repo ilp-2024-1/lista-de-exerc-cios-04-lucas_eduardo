@@ -332,6 +332,28 @@
 # ções da matriz. O programa deverá exibir a matriz de dimensões “m por n” informar o
 # resultado da soma de cada COLUNA da matriz. Exemplos:
 
+# linhas = int(input("Digite a quantidade de linhas da matriz: "))
+# colunas = int(input("Digite a quantidade de colunas da matriz: "))
+
+# matriz_NxM = []
+
+# for x in range(linhas):
+#     soma = 0
+#     linha = []
+#     for y in range(colunas):
+#         valor = int(input(f"Digite o valor para a posição ({x+1}, {y+1}): "))
+#         linha += [valor]
+#     matriz_NxM += [linha]
+
+# # Exibindo a matriz
+# for linha in matriz_NxM:
+#     print(linha)
+
+# for j in range(colunas):
+#         soma_coluna = sum(matriz_NxM[i][j] for i in range(linhas))
+#         print(f"Soma da coluna {j+1}: {soma_coluna}")
+
+
 # 13. Escreva um programa que armazene valores inteiros em duas matrizes A e B de tama-
 # nho 3x3. Em seguida gere uma terceira matriz C 3x3 formada pelos maiores valores
 # de cada posição comparando as duas primeiras matrizes A e B. 
