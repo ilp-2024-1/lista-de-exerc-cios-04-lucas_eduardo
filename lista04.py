@@ -306,7 +306,25 @@
 # matriz. Em seguida, solicite ao usuário e armazene nessa matriz uma quantidade de
 # valores inteiros correspondente ao tamanho necessário para preencher todas as posi-
 # ções da matriz. O programa deverá exibir a matriz de dimensões “m por n” informar o
-# resultado da soma de cada LINHA da matriz. Exemplos:
+# resultado da soma de cada LINHA da matriz.
+
+# linhas = int(input("Digite a quantidade de linhas da matriz: "))
+# colunas = int(input("Digite a quantidade de colunas da matriz: "))
+
+# matriz_NxM = []
+
+# for x in range(linhas):
+#     soma = 0
+#     linha = []
+#     for y in range(colunas):
+#         valor = int(input(f"Digite o valor para a posição ({x+1}, {y+1}): "))
+#         linha += [valor]
+#         soma += valor
+#     matriz_NxM += [linha] + [(f"Soma da linha = {soma}")]
+
+# # Exibindo a matriz
+# for linha in matriz_NxM:
+#     print(linha)
 
 # 12. Escreva um programa que solicite ao usuário o valor das duas dimensões de uma
 # matriz. Em seguida, solicite ao usuário e armazene nessa matriz uma quantidade de
