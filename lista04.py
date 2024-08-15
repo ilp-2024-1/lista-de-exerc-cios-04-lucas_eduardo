@@ -285,6 +285,23 @@
 # mir a matriz no formato 3x3. Dica: use o operador “%” para verificar se o número é
 # ímpar.
 
+# matriz_3x3 = []
+# impares = 0
+
+# for x in range(3):
+#     linha = []
+#     for y in range(3):
+#         valor = int(input(f"Digite o valor para a posição ({x+1}, {y+1}): "))
+#         linha += [valor]
+#         if valor % 2 != 0:
+#             impares += 1
+#     matriz_3x3 += [linha]
+
+# print(f"Foram digitados {impares} números ímpares.")
+
+# for linha in matriz_3x3:
+#     print(linha)
+
 # 11. Escreva um programa que solicite ao usuário o valor das duas dimensões de uma
 # matriz. Em seguida, solicite ao usuário e armazene nessa matriz uma quantidade de
 # valores inteiros correspondente ao tamanho necessário para preencher todas as posi-
@@ -330,3 +347,9 @@
 # pares; imprima a média aritmética dos elementos da segunda e quarta colunas; subs-
 # titua os valores da sexta coluna pela soma dos valores das colunas 4 e 5; Exiba a
 # matriz modificada e a matriz original.
+
+
+# lista = [x for x in range(2, 21, 2)]
+
+# for x in range(len(lista)):
+#     print(lista[x])
