@@ -429,10 +429,53 @@
 # elementos_formatados = " + ".join(map(str, elementos))
 # print(f"{elementos_formatados} = {soma}")
 
+
 # 15. Escreva um programa que, dada uma matriz de números inteiros aleatórios variando
 # entre 100 e 999 de dimensões ‘m’ por ‘n’, ambos podendo variar de 2 a 10, realize os
 # seguintes passos: solicite ao usuário as dimensões da matriz; apresente a matriz ge-
 # rada de forma aleatória; informe o valor e posição do maior e menor valor na matriz.
+
+from random import randint
+
+entrada = input("Quantidade de linhas e colunas separada por espaço: ")
+valores = []
+maior_valor = float('-inf')
+menor_valor = float('inf')
+maior_posicao = (0, 0)
+menor_posicao = (0, 0)
+
+for x in entrada:
+    if x != " ":
+        valores += [int(x)]
+
+linhas = valores[0]
+colunas = valores[1]
+
+matrizNxM = []
+
+for i in range(linhas):
+    linha = []
+    for j in range(colunas):
+        valor = randint(2,10)
+        linha += [valor]
+    matrizNxM += [linha]
+
+for linha in matrizNxM:
+    print(linha)
+
+for i in matrizNxM:
+    for j in matrizNxM:
+        valor = matrizNxM[i][j]
+        
+        if valor > maior_valor:
+            maior_valor = valor
+            maior_posicao = (i, j)
+
+        if valor < menor_valor:
+            menor_valor = valor
+            menor_posicao = (i, j)
+
+print(maior_valor, maior_posicao, menor_valor, menor_posicao)
 
 
 # 16. Escreva um programa que realiza o produto matricial entre duas matrizes de dimen-
