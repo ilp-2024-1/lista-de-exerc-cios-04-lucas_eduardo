@@ -350,8 +350,8 @@
 #     print(linha)
 
 # for j in range(colunas):
-#         soma_coluna = sum(matriz_NxM[i][j] for i in range(linhas))
-#         print(f"Soma da coluna {j+1}: {soma_coluna}")
+#     soma_coluna = sum(matriz_NxM[i][j] for i in range(linhas))
+#     print(f"Soma da coluna {j+1}: {soma_coluna}")
 
 
 # 13. Escreva um programa que armazene valores inteiros em duas matrizes A e B de tama-
@@ -404,6 +404,30 @@
 # 14. Escreva um programa que armazene valores inteiros em uma matrize de tamanho
 # 4x4. Em seguida exiba a soma dos elementos que estão em índices de linha ímpar e
 # coluna par.
+
+# matriz_NxM = []
+# elementos = []
+# soma = 0
+
+# for x in range(3):
+#     linha = []
+#     for y in range(3):
+#         valor = int(input(f"Digite o valor para a posição ({x+1}, {y+1}): "))
+#         linha += [valor]
+#     matriz_NxM += [linha]
+
+# # Exibindo a matriz
+# for linha in matriz_NxM:
+#     print(linha)
+
+# for i in range(3):
+#     for j in range(3):
+#         if i % 2 == 0 and j % 2 == 1:
+#             soma += matriz_NxM[i][j]
+#             elementos += [matriz_NxM[i][j]]
+
+# elementos_formatados = " + ".join(map(str, elementos))
+# print(f"{elementos_formatados} = {soma}")
 
 # 15. Escreva um programa que, dada uma matriz de números inteiros aleatórios variando
 # entre 100 e 999 de dimensões ‘m’ por ‘n’, ambos podendo variar de 2 a 10, realize os
