@@ -526,12 +526,94 @@
 
 # 17. Escreva um programa que realiza o produto matricial entre duas matrizes de dimen-
 # sões ‘j’ por ‘k’ e ‘m’ por ‘n’ fornecidas pelo usuário. Os valores das duas matrizes devem
-
 # ser gerados de forma aleatória com números inteiros aleatórios variando entre dois
 # valores, também fornecidos pelo usuário. Ao final, apresente as duas matrizes geradas
 # de forma aleatória, bem como a matriz resultante do produto. Caso não seja possível
 # realizar o produto matricial, informe a impossibilidade ao usuário e as duas matrizes
 # geradas.
+
+# from random import randint
+
+# matrizJxK = []
+# matrizMxN = []
+# matrizOxP = []
+# dimensoesJxK = []
+# dimensoesMxN = []
+# valoresIntervalo = []
+
+# entradaJxK = input("Quantidade de linhas e colunas da matriz JxK separada por espaço: ")
+# entradaMxN = input("Quantidade de linhas e colunas da matriz MxN separada por espaço: ")
+# entradaIntervalo = input("Intervalo de valores separados por espaço para gerar as matrizes: ")
+
+# for x in entradaJxK:
+#     if x != " ":
+#         dimensoesJxK += [int(x)]
+
+# for x in entradaMxN:
+#     if x != " ":
+#         dimensoesMxN += [int(x)]
+
+# for x in entradaIntervalo:
+#     if x != " ":
+#         valoresIntervalo += [int(x)]
+
+# linhasJxK = dimensoesJxK[0]
+# colunasJxK = dimensoesJxK[1]
+# linhasMxN = dimensoesMxN[0]
+# colunasMxN = dimensoesMxN[1]
+
+# if linhasJxK != colunasMxN:
+#     print("A primeira matriz não possui o mesmo número de colunas da segunda matriz. Portanto a operação não pôde ser realizada.")
+# else:
+
+#     # Gera as matrizes.
+#     for i in range(linhasJxK):
+#         linha = []
+#         for j in range(colunasJxK):
+#             valor = randint(valoresIntervalo[0], valoresIntervalo[1])
+#             linha += [valor]
+#         matrizJxK += [linha]
+
+#     for i in range(linhasMxN):
+#         linha = []
+#         for j in range(colunasMxN):
+#             valor = randint(valoresIntervalo[0], valoresIntervalo[1])
+#             linha += [valor]
+#         matrizMxN += [linha]
+#     ###
+
+#     # Multiplica as duas matrizes colocando o resultado em uma terceira matriz.
+#     for i in range(linhasJxK):
+#         linha = []
+#         for j in range(colunasMxN):
+#             soma = 0
+#             for k in range(colunasJxK):
+#                 soma += matrizJxK[i][k] * matrizMxN[k][j]
+#             linha += [soma]
+#         matrizOxP += [linha]
+
+# print("Matriz JxK:")
+# for i in range(linhasJxK):
+#     for j in range(colunasJxK):
+#         print(matrizJxK[i][j], end=" ")
+#     print()
+
+# print("")
+
+# print("Matriz MxN:")
+# for i in range(linhasMxN):
+#     for j in range(colunasMxN):
+#         print(matrizMxN[i][j], end=" ")
+#     print()
+
+# print("")
+
+# print("Matriz OxP:")
+# for i in range(linhasJxK):
+#     for j in range(colunasMxN):
+#         print(matrizOxP[i][j], end=" ")
+#     print()
+
 
 # 18. Escreva um programa que leia uma matriz de dimensões 3x6 com valores reais. Em
 # seguida, o programa deverá imprimir a soma de todos os elementos das colunas ím-
@@ -540,7 +622,3 @@
 # matriz modificada e a matriz original.
 
 
-# lista = [x for x in range(2, 21, 2)]
-
-# for x in range(len(lista)):
-#     print(lista[x])
