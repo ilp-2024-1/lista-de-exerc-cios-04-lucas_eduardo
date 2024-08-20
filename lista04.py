@@ -435,47 +435,44 @@
 # seguintes passos: solicite ao usuário as dimensões da matriz; apresente a matriz ge-
 # rada de forma aleatória; informe o valor e posição do maior e menor valor na matriz.
 
-from random import randint
+# from random import randint
 
-entrada = input("Quantidade de linhas e colunas separada por espaço: ")
-valores = []
-maior_valor = float('-inf')
-menor_valor = float('inf')
-maior_posicao = (0, 0)
-menor_posicao = (0, 0)
+# entrada = input("Quantidade de linhas e colunas separada por espaço: ")
+# valores = []
+# maior_valor = float('-inf')
+# menor_valor = float('inf')
+# maior_posicao = (0, 0)
+# menor_posicao = (0, 0)
 
-for x in entrada:
-    if x != " ":
-        valores += [int(x)]
+# for x in entrada:
+#     if x != " ":
+#         valores += [int(x)]
 
-linhas = valores[0]
-colunas = valores[1]
+# linhas = valores[0]
+# colunas = valores[1]
 
-matrizNxM = []
+# matrizNxM = []
 
-for i in range(linhas):
-    linha = []
-    for j in range(colunas):
-        valor = randint(2,10)
-        linha += [valor]
-    matrizNxM += [linha]
+# for i in range(linhas):
+#     linha = []
+#     for j in range(colunas):
+#         valor = randint(2,10)
+#         linha += [valor]
+#     matrizNxM += [linha]
 
-for linha in matrizNxM:
-    print(linha)
+# for linha in matrizNxM:
+#     print(linha)
 
-for i in matrizNxM:
-    for j in matrizNxM:
-        valor = matrizNxM[i][j]
-        
-        if valor > maior_valor:
-            maior_valor = valor
-            maior_posicao = (i, j)
+# for i, linha in enumerate(matrizNxM):
+#     for j, valor in enumerate(linha):
+#         if valor < menor_valor:
+#             menor_valor = valor
+#             pos_menor = (i+1, j+1)
+#         if valor > maior_valor:
+#             maior_valor = valor
+#             pos_maior = (i+1, j+1)
 
-        if valor < menor_valor:
-            menor_valor = valor
-            menor_posicao = (i, j)
-
-print(maior_valor, maior_posicao, menor_valor, menor_posicao)
+# print(f"Menor valor: {menor_valor} {pos_menor}\nMaior valor: {maior_valor} {pos_maior}")
 
 
 # 16. Escreva um programa que realiza o produto matricial entre duas matrizes de dimen-
