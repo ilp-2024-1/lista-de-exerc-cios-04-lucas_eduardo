@@ -460,8 +460,10 @@
 #         linha += [valor]
 #     matrizNxM += [linha]
 
-# for linha in matrizNxM:
-#     print(linha)
+# for i in range(linhas):
+#     for j in range(colunas):
+#         print(matrizNxM[i][j], end=" ")
+#     print()
 
 # for i, linha in enumerate(matrizNxM):
 #     for j, valor in enumerate(linha):
