@@ -480,7 +480,49 @@
 # 16. Escreva um programa que realiza o produto matricial entre duas matrizes de dimen-
 # sões 3x3. Os valores das duas matrizes devem ser gerados de forma aleatória com
 # números inteiros aleatórios variando entre 1 e 9. Ao final, apresente as duas matrizes
-# geradas de forma aleatória, bem como a matriz resultante do produto. 
+# geradas de forma aleatória, bem como a matriz resultante do produto.
+
+# from random import randint
+
+# matriz3x3_1 = []
+# matriz3x3_2 = []
+# matriz3x3_3 = []
+
+# for i in range(3):
+#     linha = []
+#     for j in range(3):
+#         valor = randint(1,9)
+#         linha += [valor]
+#     matriz3x3_1 += [linha]
+
+# for i in range(3):
+#     linha = []
+#     for j in range(3):
+#         valor = randint(1,9)
+#         linha += [valor]
+#     matriz3x3_2 += [linha]
+
+# for i in range(3):
+#     linha = []
+#     for j in range(3):
+#         soma = 0
+#         for k in range(3):
+#             soma += matriz3x3_1[i][k] * matriz3x3_2[k][j]
+#         linha += [soma]
+#     matriz3x3_3 += [linha]
+
+# print("1º Matriz A:")
+# for linha in matriz3x3_1:
+#     print(linha)
+# print("")
+# print("2º Matriz B:")
+# for linha in matriz3x3_2:
+#     print(linha)
+# print("")
+# print("3º Matriz C (A*B)")
+# for linha in matriz3x3_3:
+#     print(linha)
+
 
 # 17. Escreva um programa que realiza o produto matricial entre duas matrizes de dimen-
 # sões ‘j’ por ‘k’ e ‘m’ por ‘n’ fornecidas pelo usuário. Os valores das duas matrizes devem
