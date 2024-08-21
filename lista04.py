@@ -621,4 +621,61 @@
 # titua os valores da sexta coluna pela soma dos valores das colunas 4 e 5; Exiba a
 # matriz modificada e a matriz original.
 
+# linhas = 3
+# colunas = 6
+# soma_colunas_impares = 0
+# soma_colunas_2_4 = 0
+# matriz3x6 = []
+
+# for x in range(linhas):
+#     linha = []
+#     for y in range(colunas):
+#         valor = int(input(f"Digite o valor para a posição ({x+1}, {y+1}): "))
+#         linha += [valor]
+#     matriz3x6 += [linha]
+
+# for x in range(linhas):
+#     for y in range(colunas):
+#         if y == 0 or y % 2 == 0:
+#             soma_colunas_impares += matriz3x6[x][y]
+
+# for x in range(linhas):
+#     for y in range(colunas):
+#         if y == 1 or y == 3:
+#             soma_colunas_2_4 += matriz3x6[x][y]
+
+# print()
+# print("Valores originais: ")
+# for i in range(linhas):
+#     for j in range(colunas):
+#         print(matriz3x6[i][j], end=" ")
+#     print()
+# print()
+
+# print(f"Soma dos elementos das colunas ímpares = {soma_colunas_impares}")
+# print(f"Média aritmética dos elementos da segunda e quarta coluna = {soma_colunas_2_4/6}")
+# print()
+
+# for x in range(linhas):
+#     for y in range(colunas):
+#         if y == 5:
+#             matriz3x6[x][5] = matriz3x6[x][3] + matriz3x6[x][4]
+
+# print("Sexta coluna igual a soma da quarta e quinta coluna: ")
+# for i in range(linhas):
+#     for j in range(colunas):
+#         print(matriz3x6[i][j], end=" ")
+#     print()
+
+# Exibindo a matriz com lista
+# for linha in matriz3x6:
+#     print(linha)
+
+# Exibindo a matriz formatada
+# for i in range(linhas):
+#     for j in range(colunas):
+#         print(matriz3x6[i][j], end=" ")
+#     print()
+
+
 
